@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+        {{- partial "translation_list.html" . -}}
+    </div>
+    {{- end }}
+</header>
+
+<div id="friends">
+    <p>一些可爱友邻。如果没有TA们，我很可能不会开始：</p>
+    <br>
+    <ul>
+        <a href="https://tiffahahahu7.github.io/gigigatgat/zh-tw/"><li>嘰嘰乞乞</li></a>
+    </ul>
+</div>
+
+{{- end }}{{/* end main */}}

@@ -1,0 +1,27 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+
+#friends ul {
+    display: flex;
+    gap:10px;
+}
+#friends ul li{
+    list-style: none;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color:dimgray;
+}
+
+#friends ul li a{
+    color:dimgray;
+ }
+#friends ul li:hover{
+    transition: all .3s ease;
+    box-shadow: 1px 1px #CCCCCC;
+
+}

@@ -1,0 +1,28 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+        {{- partial "translation_list.html" . -}}
+    </div>
+    {{- end }}
+</header>
+
+<div id="about">
+    <p>Hi，我是池骋，一个骄傲的原装福州人、心碎的散装香港人、回不去的伪装北京人。从2022年9月起，我开始学习成为一个加拿大人。截至目前，这世上还没有任何一个地方能让我心甘情愿地留下。</p>
+    <br>
+    <p>我的人生说到底只关于两件事：写作，以及人与人之间的联结。我在写自己想写的东西中感受到的幸福，是任何幸福都不能比较的；我在构建联结中所付出的时间和心力，让我相信自己的生命富有意义。唯有这两件事，我绝不妥协、绝不交换、绝不放弃。</p>
+    <br>
+    <p>在这里你能看到我写的各种各样的东西，包括我在一些媒体上发过的稿子，但主要还是随手写的闲篇儿，它们同样重要、有意思、非写不可。目前我对中文非虚构有点疲倦，很想知道用英文写短篇小说是怎么回事儿，所以我也会读点书，做点记录，或许有一天就能写了——在那之前，且让这种感觉自由流动。</p>
+    <br>
+    <p>"Life, liberty, and the pursuit of happiness. We fought for these ideals, we shouldn't settle for less."</p>
+</div>
+
+{{- end }}{{/* end main */}}

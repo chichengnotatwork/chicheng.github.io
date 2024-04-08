@@ -20,6 +20,8 @@
 
 .logo {
     flex-wrap: inherit;
+    outline: 5px solid white;
+    outline-offset: -3px;
 }
 
 .logo a {

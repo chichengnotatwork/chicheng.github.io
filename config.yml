@@ -114,11 +114,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "img/favicon.jpg"
-    favicon16x16: "img/favicon.jpg"
-    favicon32x32: "img/favicon.jpg"
-    apple_touch_icon: "img/favicon.jpg"
-    safari_pinned_tab: "img/favicon.jpg"
+    favicon: "img/logo.jpg"
+    favicon16x16: "img/logo.jpg"
+    favicon32x32: "img/logo.jpg"
+    apple_touch_icon: "img/logo.jpg"
+    safari_pinned_tab: "img/logo.jpg"
 
   label:
     text: "非池中物"

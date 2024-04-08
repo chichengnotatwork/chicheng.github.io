@@ -18,10 +18,13 @@
     margin: auto var(--gap);
 }
 
-.logo {
-    flex-wrap: inherit;
+#logo {
     outline: 5px solid white;
     outline-offset: -3px;
+}
+
+.logo {
+    flex-wrap: inherit;
 }
 
 .logo a {

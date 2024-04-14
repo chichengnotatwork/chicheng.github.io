@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>田野笔记 on 非池中物</title>
-    <link>https://chichengnotatwork.github.io/chicheng/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/</link>
+    <link>http://localhost:1313/chicheng/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 田野笔记 on 非池中物</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 10 Apr 2024 14:56:55 -0500</lastBuildDate>
-    <atom:link href="https://chichengnotatwork.github.io/chicheng/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chicheng/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>三个福建女子，“出来”之后</title>
-      <link>https://chichengnotatwork.github.io/chicheng/posts/fujian-women-immigration-stories/</link>
+      <link>http://localhost:1313/chicheng/posts/fujian-women-immigration-stories/</link>
       <pubDate>Wed, 10 Apr 2024 14:56:55 -0500</pubDate>
-      <guid>https://chichengnotatwork.github.io/chicheng/posts/fujian-women-immigration-stories/</guid>
+      <guid>http://localhost:1313/chicheng/posts/fujian-women-immigration-stories/</guid>
       <description>哪里好？ 国内好。 那为什么要出来？ 因为没有别的办法。 还会回去吗？ 不会。 这一切值得吗？ …… 陈记 多伦多的冬天漫长。4点半左右，太阳落山，天色逐渐暗</description>
     </item>
     <item>
       <title>多伦多餐馆打工记</title>
-      <link>https://chichengnotatwork.github.io/chicheng/posts/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E9%A4%90%E9%A6%86%E6%89%93%E5%B7%A5%E8%AE%B0/</link>
+      <link>http://localhost:1313/chicheng/posts/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E9%A4%90%E9%A6%86%E6%89%93%E5%B7%A5%E8%AE%B0/</link>
       <pubDate>Fri, 22 Sep 2023 14:56:55 -0500</pubDate>
-      <guid>https://chichengnotatwork.github.io/chicheng/posts/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E9%A4%90%E9%A6%86%E6%89%93%E5%B7%A5%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/chicheng/posts/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E9%A4%90%E9%A6%86%E6%89%93%E5%B7%A5%E8%AE%B0/</guid>
       <description>明天开始在陈记上班！（陈记是化名——等我从“陈记”离开了，再把它的名字写出来） 从我决定要做这个题开始，我就满chinatown求职。起初打算</description>
     </item>
   </channel>

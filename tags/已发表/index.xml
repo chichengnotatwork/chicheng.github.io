@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>田野笔记 on 非池中物</title>
-    <link>https://chicheng.run/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 田野笔记 on 非池中物</description>
+    <title>已发表 on 非池中物</title>
+    <link>https://chicheng.run/tags/%E5%B7%B2%E5%8F%91%E8%A1%A8/</link>
+    <description>Recent content in 已发表 on 非池中物</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 10 Apr 2024 14:56:55 -0500</lastBuildDate>
-    <atom:link href="https://chicheng.run/tags/%E7%94%B0%E9%87%8E%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chicheng.run/tags/%E5%B7%B2%E5%8F%91%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>三个福建女子，“出来”之后</title>
       <link>https://chicheng.run/posts/fujian-women-immigration-stories/</link>
       <pubDate>Wed, 10 Apr 2024 14:56:55 -0500</pubDate>
       <guid>https://chicheng.run/posts/fujian-women-immigration-stories/</guid>
       <description>哪里好？ 国内好。 那为什么要出来？ 因为没有别的办法。 还会回去吗？ 不会。 这一切值得吗？ …… 陈记 多伦多的冬天漫长。4点半左右，太阳落山，天色逐渐暗</description>
-    </item>
-    <item>
-      <title>多伦多餐馆打工记</title>
-      <link>https://chicheng.run/posts/part-time-field-work/</link>
-      <pubDate>Fri, 22 Sep 2023 14:56:55 -0500</pubDate>
-      <guid>https://chicheng.run/posts/part-time-field-work/</guid>
-      <description>我能找到这份工作简直是个奇迹；而奇迹发生得十分婉转幽折。 明天开始，我就要去陈记上班了。 自从决定要做这个题目，我就在多伦多的chinatown</description>
     </item>
   </channel>
 </rss>

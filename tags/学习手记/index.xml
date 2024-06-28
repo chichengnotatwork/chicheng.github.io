@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习手记 on 非池中物</title>
+    <link>https://chicheng.run/tags/%E5%AD%A6%E4%B9%A0%E6%89%8B%E8%AE%B0/</link>
+    <description>Recent content in 学习手记 on 非池中物</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 27 Jun 2024 14:56:55 -0500</lastBuildDate>
+    <atom:link href="https://chicheng.run/tags/%E5%AD%A6%E4%B9%A0%E6%89%8B%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日语学习手记（2023.3-）</title>
+      <link>https://chicheng.run/posts/japanese-learning-diary/</link>
+      <pubDate>Thu, 27 Jun 2024 14:56:55 -0500</pubDate>
+      <guid>https://chicheng.run/posts/japanese-learning-diary/</guid>
+      <description>2019年12月，我毫无征兆地失去了我使用了3年的微博账号。已经是第二次了，已经非常谨慎——但还是说失去就失去了。那个微博账号的时间虽然不长</description>
+    </item>
+  </channel>
+</rss>

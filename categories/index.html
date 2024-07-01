@@ -18,6 +18,28 @@
 <link rel="mask-icon" href="https://chicheng.run/img/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
 <meta name="msapplication-TileColor" content="00aba9">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script >
+  $(document).ready(function() {
+      var int = setInterval(fixCount, 50);
+      var busuanziSiteOffset = 1000;
+      var busuanziVisitorOffset = 100;
+      function fixCount() {                   
+       if ($("#busuanzi_container_site_uv").css("display") != "none")
+         {
+            clearInterval(int); 
+            $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + busuanziVisitorOffset);
+            $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
+       }  
+   }           
+  });
+</script>
 <link rel="alternate" type="application/rss+xml" href="https://chicheng.run/categories/index.xml">
 <link rel="alternate" hreflang="en" href="https://chicheng.run/categories/">
 <noscript>
@@ -56,7 +78,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Categories" />
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1HJV7D3FG"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-G1HJV7D3FG', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Categories" />
 <meta property="og:description" content="CHI Cheng&#39;s Blog, 池骋, 非池中物" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://chicheng.run/categories/" />
@@ -149,6 +182,9 @@
     </main>
     
 <footer class="footer">
+    <p class="extended-footer">
+        This blog has been existing for <span id="runningdays" class="running-days"></span>, with a total of <span id="busuanzi_container_site_pv" style='display:none'><span id="busuanzi_value_site_pv"></span> views</span> and <span id="busuanzi_container_site_uv" style='display:none'><span id="busuanzi_value_site_uv"></span> visitors</span>.
+      </p >
     <span>&copy; 2024 <a href="https://chicheng.run/">非池中物</a></span>
     <span>
         Powered by
@@ -199,6 +235,21 @@
     });
 
 </script>
+
+
+<script>
+    let s1 = '2024-06-28'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + " days, " + hours + " hours, " + minutes + " mins";
+    document.getElementById('runningdays').innerHTML = result;
+  </script>
 <script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
